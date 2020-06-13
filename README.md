@@ -9,4 +9,4 @@ Through this project we intend to acomplish the following goals:
 * Methodology used for building Debian Packages.
 * Basic shell scripting in bash etc..
 
-**Ultimate goal:** The final outcome of this project to provide upgraded versions of Balaswecha Packages.(Pencilbox etc. )
+**Ultimate goal:** The final outcome of this project is to provide upgraded versions of Balaswecha Packages.(Pencilbox etc. )
