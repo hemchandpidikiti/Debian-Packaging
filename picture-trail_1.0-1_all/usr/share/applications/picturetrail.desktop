@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=picturetrail
+Comment=Places a picture in Pictures folder.
+Exec=picture-trail
+Icon=my-picture-icon
+Terminal=false
+Type=Application
+Categories=Simulations
