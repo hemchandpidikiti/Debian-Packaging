@@ -1,0 +1,10 @@
+Package: picture-trail
+Version: 1.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Maintainer: Hemchand Pidikiti <hemchand200074@gmail.com>
+Description: Copies a picture to th Pictures folder in home.
+
