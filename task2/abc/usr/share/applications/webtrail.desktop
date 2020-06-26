@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=webtrail
+Comment=Opens a web page using default system browser.
+Exec=web-trail
+Icon=my-web-trail
+Terminal=false
+Type=Application
+Categories=Simulations

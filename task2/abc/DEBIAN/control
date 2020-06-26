@@ -1,0 +1,10 @@
+Package: web-trail
+Version: 1.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Maintainer: Hemchand Pidikiti <hemchand200074@gmail.com>
+Description: opens a HTML page when clicked on icon in menu.
+
