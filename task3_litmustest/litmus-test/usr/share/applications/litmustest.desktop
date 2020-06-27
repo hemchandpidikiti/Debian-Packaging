@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Litmus-Test
+Comment=Simulates litmus test.
+Exec=litmus-test
+Icon=my-litmus-icon
+Terminal=false
+Type=Application
+Categories=Simulations

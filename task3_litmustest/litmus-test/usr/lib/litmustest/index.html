@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <!-- Title -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>e-litmus</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/beaker.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body class="overlay" background="images/BackgroundImg.jpg" >
+    <div class="navbar-header mainmenu-area data-spy="affix" data-offset-top="100"">
+        <a href="#" class="navbar-brand logo">
+            <h1><font size="6">E-LITMUS</font></h1>
+        </a>
+    </div>
+    
+    <div class="relative v-center"></div>
+        
+        <div class="container top-buffer">
+            <div class="row">
+            <!---Acids and Beaker-->
+            <div class="col col-12 col-sm-8 col-md-8">
+                <div class="row">
+                    <!---ACIDS and BASES-->
+                    <div class="col col-12 col-md-5 col-sm-5">
+                        <h1>Select Acids and Bases</h1>
+                        <div class="btn-group">
+                        <br>
+                        <button type="button" class="btn btn-lg btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ACIDS
+                        </button>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item ph301" onclick="HCL()" href="#HCL">HCL</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph301" onclick="HNO3()" href="#">HNO3</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph275" onclick="H2SO4()" href="#">H2SO4</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph301" onclick="HBR()" href="#">HBR</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph301" onclick="HI()" href="#">HI</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph31" onclick="HCLO4()" href="#">HCLO4</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph31" onclick="H2CO3()" href="#">H2CO3</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph1dot3" onclick="H2C2O4()" href="#">H2C2O4</a>
+                    </div>
+                        </div>   
+                        <div class="btn-group">
+                    <button type="button" class="btn btn-lg btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      BASES
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item ph1066" onclick="BariumH()" href="#">BA(OH)2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph124" onclick="CalciumH()" href="#">CA(OH)2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph1066" onclick="MagnesiumH()" href="#">MG(OH)2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph991" onclick="CACO3()" href="#">CACO3</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph8" onclick="FerrousH()" href="#">FE(OH)2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph13" onclick="SodiumH()" href="#">NAOH</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph915" onclick="CobaltH()" href="#">CO(OH)2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item ph9" onclick="ZincH()" href="#">ZN(OH)2</a>
+                    </div>
+                        </div>
+                    </div>
+                    <!---Beaker-->
+                    <div class="col col-12 col-md-6 col-sm-6">
+                        <div id="container">
+                            <div id="beaker">
+                              <div id="liquid">
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                                <div class="bubble"></div>
+                              </div>
+                            </div>
+                          </div>              
+                    </div>
+                </div>
+                <div class="row top-buffer">
+                    <div class="col col-12 col-sm-12">
+                            <h1 id="meterValue" style="text-align: center">PH Meter</h1>
+                            <a style="height:50px;width:700px" id="controlButton" href="#" class="progress-button"></a>
+                    </div>
+                    
+                </div>
+                
+                </div>
+
+            
+            <div class="col col-12 col-sm-4 col-md-4">
+                <div class="row">
+                    <div class="col col-12 col-sm-12 col-md-12">
+                            <H1>DESCRIPTION</H1>
+                            <p id="Description"><p>
+                            <p id="desc"></p>
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-12">
+                       <!---Litmus Paper Code Here-->
+                        <p></p>
+                    </div>
+                </div>                   
+            </div>
+            </div> 
+        </div>
+         
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

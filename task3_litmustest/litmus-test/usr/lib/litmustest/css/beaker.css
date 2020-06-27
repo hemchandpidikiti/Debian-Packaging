@@ -1,0 +1,123 @@
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 270px;
+  width: 248px;
+  margin: -125px 0 0 -125px;
+  overflow: hidden;
+}
+
+#container div { position: absolute; }
+
+#beaker {
+  border: 10px solid #FFF;
+  border-top: 0;
+  border-radius: 0 0 40px 40px;
+  height: 200px;
+  left: 22px;
+  bottom: 10;
+  width: 200px;
+}
+
+#beaker:before,
+#beaker:after {
+  border: 10px solid #FFF;
+  border-bottom: 0;
+  border-radius: 30px 30px 0 0;
+  content: '';
+  height: 30px;
+  position: absolute;
+  top: -40px;
+  width: 50px;
+}
+
+#beaker:before { left: -50px; }
+#beaker:after { right: -50px; }
+
+#liquid {
+  border-radius: 0px 0px 30px 30px;
+  bottom: 0;
+  height: 135px;
+  overflow: hidden;
+  width: 180px;
+  -webkit-animation: spectrum 30s linear infinite;
+  animation: spectrum 30s linear infinite;
+}
+
+#liquid:after {
+  background-color: rgba(255, 255, 255, 0.25);
+  bottom: -10px;
+  content: '';
+  height: 200px;
+  left: -40px;
+  position: absolute;
+  transform: rotate(30deg);
+  -webkit-transform: rotate(15deg);
+  width: 110px;
+}
+#liquid .bubble {
+  -webkit-animation-name: bubble;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: bubble;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background-color: rgba(255, 255, 255, 0.2);
+  bottom: 0;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px; }
+
+.bubble:nth-child(1) {
+  left: 83px;
+  -webkit-animation-delay: 22.60426ms;
+  -webkit-animation-duration: 1300ms;
+  -webkit-transform: scale(0.5); }
+
+.bubble:nth-child(2) {
+  left: 64px;
+  -webkit-animation-delay: 6.05295ms;
+  -webkit-animation-duration: 600ms;
+  -webkit-transform: scale(0.7); }
+
+.bubble:nth-child(3) {
+  left: 118px;
+  -webkit-animation-delay: 12.45546ms;
+  -webkit-animation-duration: 900ms;
+  -webkit-transform: scale(1.2); }
+
+.bubble:nth-child(4) {
+  left: 36px;
+  -webkit-animation-delay: 4.04932ms;
+  -webkit-animation-duration: 600ms;
+  -webkit-transform: scale(0.5); }
+
+.bubble:nth-child(5) {
+  left: 62px;
+  -webkit-animation-delay: 16.86612ms;
+  -webkit-animation-duration: 800ms;
+  -webkit-transform: scale(0.4); }
+
+.bubble:nth-child(6) {
+  left: 56px;
+  -webkit-animation-delay: 3.73443ms;
+  -webkit-animation-duration: 900ms;
+  -webkit-transform: scale(0.5); }
+
+.bubble:nth-child(7) {
+  left: 160px;
+  -webkit-animation-delay: 7.35307ms;
+  -webkit-animation-duration: 1300ms;
+  -webkit-transform: scale(0.6); }
+
+@-webkit-keyframes bubble {
+  0% {
+    bottom: 0; }
+  50% {
+    background-color: rgba(255, 255, 255, 0.2);
+    bottom: 80px; }
+  100% {
+    background-color: rgba(255, 255, 255, 0);
+    bottom: 160px; } }

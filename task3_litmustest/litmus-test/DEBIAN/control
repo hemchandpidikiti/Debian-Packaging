@@ -1,0 +1,10 @@
+Package: litmus-test
+Version: 1.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 10240
+Maintainer: Hemchand Pidikiti <hemchand200074@gmail.com>
+Description: Simulates litmus test related to chemistry.
+
